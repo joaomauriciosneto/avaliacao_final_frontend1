@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 196, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+ul {
+    list-style: none;
+}
+
+.ul-items {
+    list-style: circle;
+    font-size: 12px;
+}
+
+.li-items {
+    margin: 10px 0;
+    margin-left: 60px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+p {
+    margin-top: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.navbar {
+    display: flex;
+    background: white;
+    width: 980px;
+    height: 70px;
+    align-items: center;
+}
+
+.navbar-links{
+    display: flex;
+    margin-left: 580px;
+}
+
+.navbar-image {
+    margin-left: 20px;
+}
+
+.content-align {
+    display: flex;
+    flex-direction: column;
+}
+
+.contents {
+    display: flex;
+    width: 980px; 
+    margin-top: 70px;    
+}
+
+.left {
+    width: 600px;
+    /*border: 1px solid blue;*/
+    height: 380px;
+    margin-top: 60px;
+}
+
+.left-desc{
+    margin-left: 60px;
+}
+
+.right {
+    width: 380px;
+    /*border: 1px solid blue;*/
+    height: 420px;
+}
+
+.ajude {
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.pet {
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.feliz {
+    font-size: 20px;
+}
+
+.doacao {
+    border: 2px solid black;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.legenda-doacao {
+    margin-left: 10px;
+}
+
+.galeria {
+    border: 2px solid black;    
+    width: 150px;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    justify-content: center;  
+    margin-left: 35px;  
+}
+
+.legenda-galeria {
+    margin-left: 10px;
+}
+
+.ajuste-left {
+    display: flex;
+}
+
+.bullets {
+    margin-top: 105px;
+    margin-left: 400px;
+}

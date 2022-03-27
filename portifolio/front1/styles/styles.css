@@ -1,0 +1,64 @@
+body {
+    background: rgba(128, 211, 214, 0.466);
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.post-image{
+    border-radius: 5px; 
+}
+
+.post{
+    background: #fff;
+    padding: 0px;
+    border: 3px solid #505050;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.post-content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.plan {
+    margin-top: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blue-buton {
+    background: blue;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.white-buton {
+    background: rgb(211, 211, 219);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(53, 51, 48);
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}

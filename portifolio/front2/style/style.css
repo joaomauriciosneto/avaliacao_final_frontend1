@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #0D1A2D;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card {
+    width: 300px;
+    height: 500px;
+    background: #15273F;
+    border-radius: 4%;
+    margin-top: 60px;
+    /*box-shadow: 10px 5px 5px black;*/
+    box-shadow: 2em  2em 2em -0.6em;
+}
+
+.container .card .card-image {
+    width: 250px;
+    border-radius: 4%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.container .card .contents-title {
+    display: flex;
+    background: #15273F;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .card .contents-title h4 {
+    background: #15273F;
+    color: white;
+}
+
+.container .card .contents-desc {
+    background: #15273F;
+    width: 260px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7C91B0;
+    font-size: 13px;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.container .card .contents-elements {
+    display: flex;
+    background: #15273F;
+}
+
+.esq {
+    background: #15273F;
+    margin-left: 30px;
+    margin-top: 14px;
+    /*border: 1px solid black;*/
+    width: 100px;
+    display: flex;
+}
+
+.esq-desc {
+    background: #15273F;
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #01FDFB;
+}
+
+.img-esq {
+    background: #15273F;
+    align-items: center;
+}
+
+.img-dir {
+    background: #15273F;
+}
+
+.dir-desc {
+    background: #15273F;
+    color: #7F97BD;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.dir {
+    background: #15273F;
+    margin-top: 14px;
+    width: 100px;
+    display: flex;
+    margin-left: 50px;
+}
+
+hr {
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 22px;
+    border-color: #8CAAD0
+}
+
+.final {
+    display: flex;
+    background: #15273F;
+}
+
+.final-img {
+    background: #15273F;
+    margin-left: 30px;
+}
+
+.final-img-trate {
+    width: 28px;
+    margin-top: 15px;
+    background: #15273F;
+    max-width: 48px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.final-desc {
+    background: #15273F;
+    width: 200px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.texto-inicio {
+    color: #7C91B0;
+    background: #15273F;
+}
+
+.texto-final {
+    color: white;
+    background: #15273F;
+}

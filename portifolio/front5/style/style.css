@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    width: 1360px;
+    display: flex;
+    height: 150px;
+}
+
+.top {
+    display: flex;
+    width: 1360px;
+    height: 25px;
+    background: black;
+    color: white;
+    align-items: center;
+}
+
+.phone {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: 200px;
+}
+
+.social-networks {
+    margin-left: 650px;
+}
+
+.espace-icons {
+    margin-left: 25px;
+}
+
+.middle {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.enteprise-name {
+    margin-left: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+}
+
+.title-desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: #C3C1C1;
+    margin-left: 15px;
+}
+
+.info-desc {
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.email-info {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.bottom {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    align-items: center;
+    margin-left: 200px;
+    width: 960px;
+    margin-top: 5px;
+}
+
+.margin-item-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+li {
+    width: 200px;
+    height: 40px;
+}
+
+.menu-item-black {
+    background: black;
+    color: white;
+}
+
+.menu-item-orange {
+    background: #FFB600;
+    color: white;
+}
+
+.contents {
+    width: 1360px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('../images/constructor1.jpg');
+}
+
+.items-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.left-side {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 660px;
+    height: 400px;
+}
+
+.title-desc-contest {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;  
+    color: white;
+    width: 400px;
+}
+
+.desc-contents{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.right-side {
+    width: 350px;
+    background: black;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%);
+    height: 350px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-title {
+    color: #FFB600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.right-desc {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 270px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.enter {
+    width: 280px;
+    height: 35px;
+    background: white;
+    color: #C3C1C1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.message {
+    width: 280px;
+    height: 70px;
+    background: white;
+    color: #C3C1C1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.request {
+    width: 180px;
+    height: 35px;
+    background: #FFB600;
+    color: #24221E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 85px;
+    justify-content: center;
+}
+
+.footer {
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 35px;
+    color: #24221E;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
